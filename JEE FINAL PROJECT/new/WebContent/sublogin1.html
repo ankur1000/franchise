@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body
+{
+	background:url("background-learner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.control{
+	border-radius: 3px;
+	padding: 3px;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #888;
+}
+
+.control:focus
+{
+	background-color: #CCCCEE;
+	outline: none;
+}
+
+.login1{
+width:100px;
+height:50px;
+font-weight:bold;
+font-size: 20px;
+}
+
+.nam{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+</style>
+</head>
+<body text="lightcoral">
+<form action="Subentry2" method="get">
+<center>
+<h1>Please Enter The User-Id and Password</h1>
+<table>
+<tr><td class="nam">UserId:</td><td><input type="text" style="font-size: 18px" class=" control" name="user"></td></tr>
+<tr><td class="nam">Password:</td><td><input type="password" class="control" name="pass"></td></tr><br/>
+</table>
+<a href="forget.html"><font color="#ff8c00"><h3>Forget Password..?? </h3></a></font>
+<br><input type="submit" class="login1" value="login">
+</center>
+</form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background: url("master.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+<style>
+
+.navid
+{
+padding-top:0%;
+padding-left:0%;
+
+}
+ 
+ ul {
+ list-style-type:none;
+ }
+ 
+ul#navmenu li{
+ text-align:center;
+ position:reletive;
+ float:left;
+ margin-right:4px;
+ }
+
+ ul#navmenu a{
+ text-decoration:none;
+ display:block;
+ width:205px;
+ height:35px;
+ left:550px;
+ border:1px solid #ccc;
+ border-radius:5px;
+ } 
+ 
+ul#navmenu ul.sub1
+ {
+ display:none;
+ position:absolute;
+ left:217px;
+ }
+ 
+ ul#navmenu ul.sub2
+ {
+ display:none;
+ position:absolute;
+ left:640px;
+ top:53px;
+ }
+/* ul#navmenu ul.sub3
+ {
+ display:none;
+ position:absolute;
+ left:126px;
+ top:31px;
+ }
+*/
+ ul#navmenu li:hover .sub1{
+ display:block;
+ }
+ul#navmenu li:hover .sub2{
+ display:block;
+ }
+ /*ul#navmenu .sub2 li:hover .sub3{
+ display:block;
+ }*/
+ul#navmenu sub1 li:hover .sub2{
+display:block;
+}
+ul#navmenu li:hover >a {
+background-color: #CFC;
+}
+ul#navmenu li:hover a:hover
+{
+background-color: #98fb98;
+}
+
+
+</style>
+</head>
+<body font size="15px">
+<b>
+<h3>
+<nav class="navid">
+<ul id="navmenu">
+
+<li><a href="SubFranchiseHome.jsp">Profile..</a></li>
+	<li><a href="Newsub.jsp">Register New Franchise</a></li>
+	<li><a href="Addcourse.html">Register New Course</a></li>
+
+	<li><a href="StudentDetails.jsp">Students-Details</a></li>
+
+	<li><a href="coursewise.jsp">Course-Wise-Details.</a>
+	<li><a href="Navmenu1.jsp">Logout.</a>
+	
+		
+		
+		</li>
+	</ul>
+</li>
+</ul>
+</nav>
+</b>
+</h3>
+</font>
+</body>
+</html>
